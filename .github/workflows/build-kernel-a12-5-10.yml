@@ -32,10 +32,9 @@ on:
       #   required: false
       #   type: string  # This input is required if 'Other' is chosen
       version:
-        description: '自定义版本名(如5.10.198后面的字符/留空则使用-SHUTAO)'
+        description: '自定义版本名(如5.10.198后面的字符/留空则使用默认版本号)'
         required: false
         type: string
-        default:"-SHUTAO"
       use_zram:
         description: '是否开启增加更多ZRAM算法?'
         required: true
